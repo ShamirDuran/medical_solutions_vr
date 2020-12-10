@@ -196,6 +196,14 @@ body {
   text-align: center;
 }
 
+.diagrama_acti {
+  width: 100%;
+  max-width: 750px;
+  margin-bottom: 20px;
+}
+
+/* MEDIA QUERYS */
+
 @media (max-width: 1024px) {
   .parallax > .container {
     width: calc(100vw * 0.6);
@@ -215,7 +223,7 @@ body {
   #nav a,
   .nav__list .nav__item {
     font-size: 1.5rem;
-    padding: 0px 5px;
+    padding: 0px 4px;
   }
 
   .parallax,
@@ -236,7 +244,7 @@ body {
 
   .nav__list a,
   .nav__list .nav__item {
-    padding: 0px 5px;
+    padding: 0px 4px;
   }
 
   .parallax {
