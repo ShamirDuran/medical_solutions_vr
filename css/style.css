@@ -187,13 +187,13 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .diagrama_acti {
   width: 100%;
   max-width: 750px;
   margin-bottom: 20px;
-  margin: 0 auto;
 }
 
 .footer_content {
