@@ -54,7 +54,7 @@ body {
 }
 
 .nav__list .nav__item {
-  padding: 4px 5px;
+  padding: 4px 0px;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -212,7 +212,8 @@ body {
     padding: 40px 40px;
   }
 
-  #nav a {
+  #nav a,
+  .nav__list .nav__item {
     font-size: 1.5rem;
     padding: 0px 5px;
   }
@@ -233,7 +234,8 @@ body {
     padding: 40px 20px;
   }
 
-  .nav__list a {
+  .nav__list a,
+  .nav__list .nav__item {
     padding: 0px 5px;
   }
 
