@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical Solutions VR</title>
+    <link rel="shortcut icon" href="./assets/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="nav">
+        <a href="#" class="logo"
+          ><img src="./assets/favicon.jpg" alt="Logo" class="logo"
+        /></a>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home">Inicio</a></li>
+          <li class="nav__item"><a href="#about_us">Sobre nosotros</a></li>
+          <li class="nav__item"><a href="#proyects">Proyectos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="parallax">
+        <div class="container">
+          <h1>Medical Solutions VR</h1>
+          <p>
+            <!-- La realidad virtual (VR) es una experiencia interactiva generada por
+            computadora que tiene lugar dentro de un entorno simulado. incorpora
+            principalmente auditiva y visual -->
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
+            debitis perferendis hic pariatur velit, veritatis excepturi
+            perspiciatis iusto illo quia blanditiis unde incidunt sequi, aut
+            magnam quasi maxime. Voluptate, commodi!
+          </p>
+          <div class="button">
+            <a href="#proyects">Ver proyectos</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about_us">
+        <div class="container">
+          <h1 class="title">Sobre nosotros</h1>
+          <p>
+            Somos un grupo de Ingenieros de Sistemas y de Diseño gráfico a los
+            que nos gusta desarrollar software educativo aprovechando la
+            tecnologia de realidad virtual. Principlamente desarrollamos
+            software para el area de la medicina educativa.
+          </p>
+
+          <div class="members">
+            <div class="member_card">
+              <figure>
+                <img
+                  src="./assets/male.jpg"
+                  alt="Foto miembro"
+                  class="photo_member"
+                />
+              </figure>
+              <div class="content">
+                <center>
+                  <h3 class="title_card">Shamir Duran</h3>
+                  <p class="lead_text">Ing. de Sistemas</p>
+                </center>
+              </div>
+            </div>
+
+            <div class="member_card">
+              <figure>
+                <img
+                  src="./assets/female.jpg"
+                  alt="Foto miembro"
+                  class="photo_member"
+                />
+              </figure>
+              <div class="content">
+                <center>
+                  <h3 class="title_card">Tatiana Diaz</h3>
+                  <p class="lead_text">Diseño gráfico</p>
+                </center>
+              </div>
+            </div>
+
+            <div class="member_card">
+              <figure>
+                <img
+                  src="./assets/male.jpg"
+                  alt="Foto miembro"
+                  class="photo_member"
+                />
+              </figure>
+              <div class="content">
+                <center>
+                  <h3 class="title_card">Alvaro Rios</h3>
+                  <p class="lead_text">Ing. de Sistemas</p>
+                </center>
+              </div>
+            </div>
+
+            <div class="member_card">
+              <figure>
+                <img
+                  src="./assets/male.jpg"
+                  alt="Foto miembro"
+                  class="photo_member"
+                />
+              </figure>
+              <div class="content">
+                <center>
+                  <h3 class="title_card">Sebastian</h3>
+                  <p class="lead_text">Ing. de Sistemas</p>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyects">
+        <div class="container">
+          <h1 class="title" style="width: 50%">
+            Simulador tratamiento básico de via aerea
+          </h1>
+
+          <br />
+          <center>
+            <iframe
+              class="video"
+              width="818"
+              height="409"
+              src="https://www.youtube.com/embed/VG_IaphAgyM"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </center>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        var nav = document.getElementById("nav");
+        nav.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+  </body>
+
+  <footer>
+    <div class="footer_content">
+      <p>Universidad Industrial de Santander</p>
+      <p>Copyright 2020</p>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,190 @@
+:root {
+  --primary-color: #0182e9;
+  --seconday-color: #209fff;
+  --padding-horizontal: 40px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+#nav {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  font-size: 1.5rem;
+  height: 50px;
+  padding: 40px 100px;
+  position: fixed;
+  transition: 400ms;
+  width: 100%;
+  z-index: 10000;
+}
+
+#nav.sticky {
+  padding: 30px 100px;
+  background-color: black;
+}
+
+.nav__list {
+  align-items: center;
+  display: flex;
+  list-style: none;
+}
+
+.nav__list a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.nav__list .nav__item {
+  padding: 8px 0px;
+  border-radius: 5px;
+}
+
+.nav__item:hover {
+  background-color: rgba(255, 255, 255, 0.253);
+}
+
+.logo {
+  margin-right: 40px;
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+}
+
+.parallax {
+  align-items: center;
+  background-image: url("../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100vh;
+  display: flex;
+  padding: 0px 100px;
+  width: 100%;
+  height: 100vh;
+}
+
+.parallax > .container {
+  background-color: #051929a6;
+  border-radius: 15px;
+  color: whitesmoke;
+  letter-spacing: 0.5px;
+  /* line-height: 20px; */
+  padding: 20px 50px;
+  position: relative;
+  width: 60%;
+}
+
+.parallax .container h1 {
+  font-size: 3rem;
+  padding-bottom: 5px;
+}
+.parallax .container p {
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: black !important;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 10px 20px;
+  transition: 200ms;
+  text-decoration: none;
+}
+
+.button a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.button:hover {
+  transform: scale(1.06);
+}
+
+.container {
+  padding: 40px 100px;
+  letter-spacing: 0.8;
+  font-size: 1.5rem;
+}
+
+.title {
+  font-size: 3.5rem;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-transform: none;
+}
+
+.members {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-flow: wrap;
+  margin-top: 30px;
+}
+
+.member_card {
+  /* border: 1px solid black; */
+  margin: 5px 10px;
+  transition: 300ms;
+  flex-wrap: wrap;
+}
+
+.member_card .content {
+  border-left: 1px solid rgba(71, 66, 66, 0.445);
+  border-right: 1px solid rgba(71, 66, 66, 0.445);
+  border-bottom: 1px solid rgba(71, 66, 66, 0.445);
+  padding: 5px;
+}
+
+.member_card figure,
+.member_card .photo_member {
+  width: 150px;
+  height: 170px;
+}
+
+.member_card:hover {
+  transform: scale(1.1);
+}
+
+.title_card {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.lead_text {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.video {
+  margin-bottom: 30px;
+}
+
+.footer_content {
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 100px;
+}
+
+.footer_content p {
+  padding: 5px 0px;
+  text-align: center;
+}
