@@ -183,6 +183,19 @@ body {
   height: 400px;
 }
 
+.center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.diagrama_acti {
+  width: 100%;
+  max-width: 750px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
 .footer_content {
   background-color: black;
   color: whitesmoke;
@@ -194,12 +207,6 @@ body {
 .footer_content p {
   padding: 5px 0px;
   text-align: center;
-}
-
-.diagrama_acti {
-  width: 100%;
-  max-width: 750px;
-  margin-bottom: 20px;
 }
 
 /* MEDIA QUERYS */
