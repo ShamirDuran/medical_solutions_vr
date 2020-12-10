@@ -54,7 +54,7 @@ body {
 }
 
 .nav__list .nav__item {
-  padding: 4px 0px;
+  padding: 4px 5px;
   border-radius: 5px;
   display: flex;
   align-items: center;
