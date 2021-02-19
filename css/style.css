@@ -209,6 +209,13 @@ body {
   text-align: center;
 }
 
+.game-iframe {
+  width: 100%;
+  max-width: 1300px;
+  height: calc(100vh - 100px);
+  border: 0;
+}
+
 /* MEDIA QUERYS */
 
 @media (max-width: 1024px) {
@@ -240,6 +247,10 @@ body {
 
   .logo {
     margin-right: 20px;
+  }
+
+  .game-iframe {
+    height: 380px;
   }
 }
 
@@ -305,5 +316,10 @@ body {
 
   .footer_content {
     padding: 25px 40px;
+  }
+
+  .game-iframe {
+    height: auto;
+    min-height: 200px;
   }
 }
