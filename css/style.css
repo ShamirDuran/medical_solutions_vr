@@ -37,6 +37,10 @@ body {
   background-color: black;
 }
 
+.link_prototipo {
+  text-decoration: none;
+}
+
 .nav__list {
   align-items: center;
   display: flex;
